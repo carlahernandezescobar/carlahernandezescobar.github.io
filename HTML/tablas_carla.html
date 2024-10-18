@@ -1,0 +1,354 @@
+<html> 
+ <head> 
+ <title>Tablas Html</title> 
+ <link rel="stylesheet" href="../CSS/style.page.css" type="text/css"> 
+ <style> 
+ 
+ #tabla_1 th{ 
+ background-color: #F2D5E0;} 
+ #tabla_1 { 
+ width: 100%; 
+ text-align: center; 
+ margin:0 auto; 
+ color: #855E6E; 
+ border-color:#855E6E ; 
+ border-width: 5px;} 
+     
+ #tabla_1 td{ 
+ background-color:#F7F1E1; 
+ color:#855E6E ; 
+ text-align: left; 
+ height:5px ; 
+ border-radius: 5px; 
+ border-color:#ce7095; 
+ margin: 10px; 
+ border-style: solid; 
+ 
+ } 
+ #tabla_2{ 
+ height:5px ; 
+ width: 600px; 
+ border-collapse: collapse; 
+ border-color:#855E6E; 
+ background-color: #855E6E;
+ color:white; 
+ border-style: solid; 
+ margin: 0 auto; 
+ 
+ } 
+ #tabla_2 th{ 
+ background color:#F2D5E0; 
+ border-style: dashed; 
+ } 
+ #tabla_2 td, .tabla_2 th{ 
+ color: #855E6E; 
+ height:5px ; 
+ padding: 10px; 
+ border-style: dashed; 
+ background-color: #F2D5E0; 
+ } 
+ .celda_centrada{ 
+ text-align: center; 
+ background-color: #FFB2C1; 
+ padding:0px ; 
+ } 
+ .tabla_2 th{ 
+ background-color: #F7F1E1; 
+ } 
+ .tabla_2 td{ 
+ background-color: #ffb2c1; 
+ } 
+ 
+ 
+ 
+ #tabla_zebra{ 
+ width: 100%; 
+ color:#855E6E;
+
+ 
+ } 
+ #tabla_zebra tbody tr:nth-child(even){ 
+ background-color: #F7F1E1; 
+ } 
+ #tabla_zebra tbody tr:nth-child(odd){ 
+ background-color: #F2D5E0; 
+ } 
+ #tabla_zebra thead tr{ 
+ background-color: #6F56A6; 
+color: white;
+ } 
+ .tabla_hover{ 
+ width: 100%; 
+ } 
+ 
+ .tabla_hover th{ 
+ background-color:#ce7095 ; 
+ padding: 10px; 
+ } 
+ 
+ .tabla_hover tr{ 
+ background-color:#855E6E; 
+ color: white; 
+ text-align: left; 
+ height:5px ; 
+ border-radius: 20px; 
+ border-color:white; 
+ margin: 10px; 
+ border-style: solid; 
+ padding: 15px; 
+ } 
+ .tabla_hover tr:hover{ 
+ background-color:#EDB39D; 
+ color:white; 
+ font-weight:600;
+ } 
+     
+ a{text-decoration: none; 
+     color:white;}
+
+     
+ </style> 
+ 
+ </head> 
+ <body> 
+ <header> <h1> TABLAS </h1> </header> 
+ <nav> 
+ <ul> 
+ <li><a href="../HTML/pagina_inicio.html">Inicio</a></li>
+<li><a href="../HTML/listas_carla.html">Listas</a></li>
+<li><a href="../HTML/enlaces_carla.html">Enlaces</a></li> 
+ <li><a href="../HTML/tablas_carla.html">Tablas</a></li> 
+<li><a href="../HTML/imagenes_carla.html">Imagenes</a></li>
+ <li><a href="../HTML/audios_carla.html">Audios</a></li> 
+ <li><a href="../HTML/video_carla.html">Video</a></li>   
+        <li><a href="../HTML/formulario_carla.html">Formulario</a></li>
+ </ul> 
+ </nav> 
+ <main> 
+ <section style="overflow-x: auto"> 
+ <h2 id="intereses">Mis intereses </h2> 
+ <br>
+ <p>Me apasiona la tipografía, la ilustración y la fotografía, áreas que me permiten expresar mi creatividad de manera diversa. En la tipografía, encuentro fascinante cómo las formas de las letras pueden contar una historia o transmitir una sensación única. La ilustración es mi medio para crear personajes y mundos que, aunque lindos y coloridos, abordan temas profundos y serios. La fotografía, por otro lado, es mi herramienta para capturar momentos, ya sea en eventos sociales o en la belleza de la gastronomía, permitiéndome jugar con la luz y la composición para transmitir emociones y significados.</p> 
+ <table id="tabla_1" border="1"> 
+ 
+ <thead></thead> 
+ 
+ <th>Interés</th> 
+ <th>Descripción</th> 
+ <th>Habilidades</th> 
+ <th>Proyectos destacados</th> 
+  
+ 
+ <tbody> 
+ <tr> 
+ <td>Tipografía</td> 
+ <td>Me apasiona el diseño de tipografías y cómo las letras pueden contar una historia visual.</td> 
+ <td>Creación de fuentes, lettering, diseño tipográfico.</td> 
+ <td>Ganadora del concurso FiftyFifty; desarrollo de tipografías originales.</td> 
+ 
+ </tr> 
+ <tr> 
+ <td>Fotografía</td> 
+ <td>Mi interés por la fotografía va desde lo social hasta lo gastronómico, con un enfoque en capturar emociones.</td> 
+ <td>Fotografía social y gastronómica, edición fotográfica, composición. </td> 
+ <td>Proyectos freelance en eventos sociales y fotografía de comida para marcas locales.</td>
+ </tr> 
+ 
+ <tr> 
+ <td>Ilustración</td> 
+ <td>Disfruto de crear personajes y escenas que combinan elementos coloridos con mensajes serios.</td> 
+ <td>Ilustración digital y analógica, creación de personajes, storytelling.</td> 
+ <td>Finalista en el concurso de ilustración botánica; ilustraciones para proyectos editoriales.</td> 
+ </tr> 
+
+ </tbody> 
+ 
+ <tfoot></tfoot> 
+ 
+ </table> 
+ <a href="#menu_interno"><img id="icono" src="../ICONOS/3-search-cat_icon-icons.com_76679.ico"></a>
+ </section> 
+ 
+ <section style="overflow-x: auto"> 
+ <h2 id="exposiciones">Mis exposiciones </h2> 
+ <br>
+ <p>A lo largo de mi carrera, he tenido la oportunidad de exponer algunas de mis obras en diferentes eventos, lo que me ha permitido compartir mi visión artística con un público más amplio. Estas exposiciones reflejan mi enfoque en la ilustración, el diseño tipográfico y la botánica, mostrando la evolución de mi estilo y mi compromiso con el arte.</p> 
+ <table id="tabla_2" class="tabla_tamano"> 
+ <thead> 
+ 
+ <tr> 
+ <th style="width: 80px;">Fecha</th> 
+ <th style="width: 110px;" >Tema</th> 
+ <th style="width: 120px;" >Ubicación</th> 
+ <th style="width: px;" >Nombre de la obra</th> 
+ 
+ </tr> 
+ </thead> 
+ <tbody> 
+ 
+ <tr> 
+ <td>2024</td> 
+ <td style="text-align: center;padding: 0px width: 80px;" >Ilustración botánica</td> 
+ 
+ <td style="width: 110px;" >Jardín Etnobiológico Estatal de Durango</td>
+  
+ <td style="text-align: center; 
+ background-color: #6F56A6; color: white;
+ padding:0px  width: 120px;";>"Flora Mexicana"</td>
+ </tr>
+ 
+ <tr> 
+ <td>2023</td> 
+ <td style="text-align: center;padding: 0px width: 80px;" >Exposición de arte universitario</td> 
+ 
+ <td style="width: 110px;" >Universidad Politécnica Metropolitana de Puebla</td>
+  
+ <td style="text-align: center; 
+ background-color: #6F56A6; color: white;
+ padding:0px  width: 120px;";>"Entre Pinceles"</td>
+ </tr>
+ 
+<tr> 
+ <td>2022</td> 
+ <td style="text-align: center;padding: 0px width: 80px;" >Tipografía y diseño editorial</td> 
+ 
+ <td style="width: 110px;" >Concurso FiftyFifty, University of Sharjah</td>
+  
+ <td style="text-align: center; 
+ background-color: #6F56A6; color: white;
+ padding:0px  width: 120px;";>"Proyecto de tipografía creativa"</td>
+ </tr>
+
+
+ 
+ </tbody> 
+ <tfoot> 
+ 
+ 
+ </table> 
+ <a href="#menu_interno"><img id="icono" src="../ICONOS/3-search-cat_icon-icons.com_76679.ico"></a>
+ </section> 
+ 
+ 
+ <section style="overflow-x: auto"> 
+ <h2 id="planes">Planes a corto, mediano y largo plazo</h2> 
+ <br>
+ <p>Además de continuar perfeccionando mis habilidades, a corto, mediano y largo plazo, planeo involucrarme en nuevas actividades como la impartición de talleres y colaboraciones en proyectos editoriales, siempre con el objetivo de seguir creciendo en mi campo.</p> 
+ <table id="tabla_zebra"> 
+ <thead> 
+ <tr> 
+ <th>Interés principal</th> 
+ <th>Actividades a corto plazo</th> 
+ <th>Actividades a mediano plazo</th> 
+ <th>actividades a largo plazo</th> 
+ </tr> 
+ </thead> 
+ 
+ <tbody> 
+ <tr> 
+ <td>Ilustración</td> 
+ <td>Graduarme y trabajar en una editorial, aplicando ilustración.</td> 
+ <td>Desarrollar un estilo personal y participar en más exposiciones.</td> 
+ <td>Abrir una agencia de diseño y realizar exposiciones a nivel nacional.</td> 
+ </tr> 
+ 
+ <tr> 
+ <td>Ilustración </td> 
+ <td>Colaborar en proyectos editoriales y freelance.</td> 
+ <td>Colaborar en una revista ilustrando artículos culturales.</td> 
+ <td>Publicar un libro ilustrado en colaboración con escritores.</td> 
+ </tr> 
+ 
+ <tr> 
+ <td>Tipografía</td> 
+ <td>Crear una tipografía propia para uso en proyectos editoriales.</td> 
+ <td>Dar talleres sobre diseño tipográfico en universidades locales.</td> 
+ <td>Fundar un espacio de formación especializado en tipografía.</td> 
+ </tr> 
+ 
+ <tr> 
+ <td>Fotografía</td> 
+ <td>Ampliar mi portafolio de fotografía gastronómica.</td> 
+ <td>Participar en proyectos fotográficos para marcas locales.</td> 
+ <td>Publicar un libro de fotografía gastronómica.</td> 
+
+ </tr> 
+ <tr> 
+ <td>Fotografía </td> 
+ <td>Realizar proyectos de fotografía para redes sociales.</td> 
+ <td>Montar una exposición fotográfica individual en Puebla.</td> 
+ <td>Ofrecer talleres de fotografía a nivel internacional.</td> 
+ </tr> 
+ 
+ </tbody> 
+ </table> 
+ <a href="#menu_interno"><img id="icono" src="../ICONOS/3-search-cat_icon-icons.com_76679.ico"></a>
+ </section>
+  
+ <section style="overflow-x: auto"> 
+ <h2 id="contacto">Contactos y redes sociales </h2> 
+ <p>Tener una página web es esencial para mí, ya que es un espacio donde puedo presentar mi portafolio, compartir mis proyectos y conectar con posibles clientes o colaboradores. Además de ser una herramienta profesional que me permite mostrar mis habilidades de manera organizada, también me brinda la oportunidad de compartir mi proceso creativo y ofrecer mis servicios de una forma accesible y directa. En un mundo donde la presencia digital es clave, mi página web actúa como mi carta de presentación, consolidando mi identidad como ilustradora y diseñadora gráfica.</p> 
+ <table class="tabla_hover"> 
+ 
+ <thead> 
+ <tr> 
+ <th>Plataforma</th> 
+ <th>Usuario o enlace</th> 
+ <th>Descripción</th> 
+ </tr> 
+ </thead> 
+ 
+ <tbody> 
+ <tr> 
+ <td>Correo electrónico</td> 
+ <td>carlahesc@gmail.com</td> 
+ <td>Correo principal para contacto profesional y colaboraciones.</td> 
+ </tr> 
+ 
+ <tr> 
+ <td>Instagram</td> 
+ <td>@carlacaos</td> 
+ <td>Perfil donde comparto mi trabajo de ilustración y mi proceso creativo.</td>  
+ </tr> 
+ 
+ <tr> 
+ <td>TikTok</td> 
+ <td>@carlacaos_</td> 
+ <td>Videos sobre mi proceso creativo, tutoriales, y tips de ilustración y diseño.</td> 
+ </tr> 
+ 
+ <tr> 
+ <td>Behance</td> 
+ <td><a href="https://www.behance.net/carlahesc">Carla Hernandez Escobar</a></td> 
+ <td>Portafolio online con mis proyectos de ilustración, tipografía y fotografía.</td> 
+ </tr> 
+ 
+ <tr> 
+ <td>Pinterest </td> 
+ <td>@carlacaos_</td> 
+ <td>Tableros de inspiración visual, referencias de ilustración, tipografía y diseño.</td> 
+ 
+ </tr> 
+ <tr> 
+ <td>WhatsApp</td> 
+ <td>+52 2213755020</td> 
+ <td>Contacto directo para proyectos y colaboraciones.</td> 
+ </tr> 
+ </tbody> 
+ </table> 
+ <a href="#menu_interno"><img id="icono" src="../ICONOS/3-search-cat_icon-icons.com_76679.ico"></a>
+ </section> 
+ 
+<nav id="menu_interno">
+<ul>
+<li><a href="#intereses">Intereses</a></li>
+<li><a href="#exposiciones">Exposiciones</a></li>
+<li><a href="#planes">Planes</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+</nav>
+ </main> 
+ 
+ </body> 
+ <footer> <h5><b>Carla Hernández Escobar</b></h5></footer>
+ </html>

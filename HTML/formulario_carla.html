@@ -1,0 +1,233 @@
+<doctype html>
+<html>
+<head>
+
+<title>Formularios</title>
+<link href="../CSS/style.page.css" rel="stylesheet" type="text/css">
+
+	<style type="text/css">
+		form{
+			width: 70%;
+			height:autoS;
+			padding: 30px;
+			background-color: #F7F1E1;
+			color: #855E6E;
+			margin: 0 auto;
+			font-weight: bold;
+		}
+		label ,input{
+			display: block;
+			margin-left: 10px;
+			
+		}
+		label{
+			padding-bottom: 10px;
+			padding-top: 7px;
+		}
+		input[type=text],input[type=password],input[type=number],select{
+			width: 100%;
+			color: #855E6E;
+			padding: 8px;
+			font-weight: bold;
+			border-radius:10px ;
+		}
+		select{
+			margin-left: 10px;
+		}
+		input[type=submit]{
+			width: 50%;
+			background-color: #DCA2CA;
+			margin: 20px auto;
+			padding: 5px;
+			color:  #855E6E;
+			border-radius:10px;
+		}
+		input[type=text]:focus,input[type=password]:focus{
+			background-color:#F333C8 ;
+			border: 10px #C691E5;
+		}
+		
+	</style>
+</head>
+
+<body>
+<header>
+  <h1>Formularios en html</h1>
+</header>
+<nav>
+        <ul>
+ <li><a href="../HTML/pagina_inicio.html">Inicio</a></li>
+        <li><a href="../HTML/listas_carla.html">Listas</a></li>
+        <li><a href="../HTML/enlaces_carla.html">Enlaces</a></li> 
+        <li><a href="../HTML/tablas_carla.html">Tablas</a></li> 
+        <li><a href="../HTML/imagenes_carla.html">Imagenes</a></li> 
+        <li><a href="../HTML/audios_carla.html">Audios</a></li>         
+        <li><a href="../HTML/video_carla.html">Video</a></li>   
+        <li><a href="../HTML/formulario_carla.html">Formulario</a></li> 
+        </ul>
+        </nav>
+<main>
+	<section>
+	<h2>Crear una Cuenta para Conectarnos</h2>
+<br>
+<br>
+	<p>Crear una cuenta en mi página te permitirá estar más cerca de mi trabajo y facilitará futuras colaboraciones. Al registrarte, podremos mantenernos en contacto de manera organizada, compartiendo ideas y archivos de manera eficiente para cualquier proyecto creativo que desees llevar a cabo conmigo.</p>
+		<form action="" method="get">
+		<label id="">Nombre</label>
+		<input type="text"	id="nombre" name="Nombre">
+		<label id="">Contraseña</label>
+		<input type="password" id="contrasena" name="contrasena">
+		<input type="submit" value="Enviar">
+		</form>
+	</section>
+	
+  <section>
+	  <h2>Cuéntame de Dónde Eres para Proyectos Locales</h2>
+	  <br>
+	  <br>
+  <p>Saber de qué ciudad vienes es importante para identificar oportunidades de colaboración más cercanas. Si vives en una ciudad próxima, podríamos planear proyectos presenciales, involucrarnos en eventos locales o incluso coordinar sesiones fotográficas o de diseño personalizadas. ¡Conozcámonos mejor para trabajar juntos!</p>
+	 <form action="#">
+	<label id="">Nombre</label>
+	<input type="text" name="Nombre">
+		 
+     <label for="number">Edad:</label>
+     <input type="number" name="number" id="number" min="18" max="100">
+		 
+	<label for="ciudad">Ciudad:</label> 
+     <select id="ciudad" name="ciudad">
+	 <option value="Puebla">Puebla</option>
+		<option value="Tlaxcala">Tlaxcala</option>
+		<option value="Veracruz">Veracruz</option>
+		<option value="colima">Colima</option>
+        <input type="submit">
+	   </select>	 
+		
+	
+    </form>
+	  
+	  
+	  
+  </section>
+  <section>
+	  <h2>Tu Nombre Importa, porque el Trabajo es Personal:</h2>
+    
+    <p>Pedir tu nombre no es un simple formalismo, es el primer paso para establecer una colaboración personalizada. Quiero dirigirme a ti como lo que eres: una persona creativa con ideas únicas. A partir de aquí, todo será mucho más cercano y podrás ver cómo tus ideas se transforman en arte a tu medida.</p>
+    <form id="form1" name="form1" method="post">
+      
+	   <label for="textfield">Nombre:</label>
+      <input type="text" name="textfield" id="textfield">
+		 
+  <label for="genero">Genero:</label>
+  
+	 
+         <input style="display:inline-block"type="radio" name="genero" value="fem" id="genero_1">
+          <label style="display:inline-block">Femenino</label>
+		 
+        <input style="display:inline-block" type="radio" name="genero" value="mas" id="genero_2">
+       <label style="display:inline-block">Masculino</label>
+          
+		 
+		<input style="display:inline-block" type="radio" name="genero" value="mas" id="genero_3">
+	  <label style="display:inline-block">Otro</label>
+          
+		 
+    
+   
+     <label for="musica">Elige tu genero de musica favorito</label>  
+		<label>
+        <input style="display:inline-block" type="checkbox" name="musica_0" value="rock" id="musica_0">
+        Rock</label>
+    
+      <label>
+        <input style="display:inline-block" type="checkbox" name="musica_1" value="bachata" id="musica_1">
+        Bachata</label>
+      
+      <label>
+        <input style="display:inline-block" type="checkbox" name="musica_2" value="pop" id="musica_2">
+        Pop</label>
+      
+      <label>
+        <input  style="display:inline-block" type="checkbox" name="musica_3" value="funk" id="musica_3">
+        Funk</label>
+      
+      <label>
+        <input style="display:inline-block" type="checkbox" name="musica_4" value="rap" id="musica_4">
+          Rap</label> 
+       
+    </form>
+ 
+     
+	 
+  </section>
+	<section>
+	  <h2>¡Descifra Tu Signo Zodiacal y Déjate Inspirar!</h2>
+  <p>El formulario para calcular tu signo zodiacal añade un toque personal y lúdico a nuestra colaboración. ¡Imagina cómo podemos integrar elementos astrológicos en tu proyecto! Desde ilustraciones basadas en tu signo hasta composiciones que reflejen tu personalidad según el zodiaco, es una forma de hacer que tu proyecto sea aún más especial.</p>
+  
+ 
+  
+<br>
+
+
+    <h2></h2>
+     <form action="#" method="post">
+  <br>      
+        <p>1. ¿Cuál es tu fecha de nacimiento?</p>
+        <input type="date" name="fecha_nacimiento" required>
+<br>
+        <p>2. ¿Cuál es tu color favorito? </p>
+        <input type="color" name="color_favorito">
+
+<br>
+        <p>3. Sube una foto de tu mascota</p>
+        <input type="file" name="foto">
+<br>
+        <p>4. ¿Te consideras creativo/a?</p>
+        <input type="range" name="creatividad" min="0" max="10">
+<br>
+       <p>5. ¿Te consideras distraido? </p>
+        <input type="range" name="gasto_entretenimiento" min="0" max="1000" step="50">
+ <br>       
+        <p>6. ¿Prefieres el día o la noche?</p>
+        <select name="dia_noche">
+            <option value="dia">Día</option>
+            <option value="noche">Noche</option>
+        </select>
+<br>
+        <p>7. ¿Qué tipo de música prefieres?</p>
+        <select name="genero_musical" multiple>
+            <option value="rock">Rock</option>
+            <option value="pop">Pop</option>
+            <option value="clasica">Clásica</option>
+            <option value="reggae">Reggae</option>
+            <option value="jazz">Jazz</option>
+        </select>
+<br>
+        <p>8. ¿Cuál es tu fruta favorita?</p>
+        <input list="frutas" name="fruta_favorita">
+        <datalist id="frutas">
+            <option value="Manzana">
+            <option value="Plátano">
+            <option value="Naranja">
+            <option value="Fresa">
+        </datalist>
+<br>
+
+        <p>9. ¿Te consideras una persona competitiva?</p>
+        <label><input   style="display:inline-block" type="radio" name="competitivo" value="si"> Sí</label>
+        
+        <label><input   style="display:inline-block"  type="radio" name="competitivo" value="no"> No</label>
+
+<br>     
+        <p>10. ¿Te gustaría contestar más formularios? </p>
+        <input type="email" name="correo_actualizaciones" placeholder="tuemail@dominio.com">
+
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+
+  </section>
+	</main>
+ <footer> <h5><b>Carla Hernández Escobar</b></h5></footer>
+</body>
+</html>
